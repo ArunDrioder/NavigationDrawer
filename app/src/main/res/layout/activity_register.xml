@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorAccent"
+    tools:context="com.example.ss.navigationdrawer.activity.RegisterActivity">
+
+    <EditText
+        android:id="@+id/regName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:hint="Enter Name"
+        android:paddingLeft="@dimen/_5sdp" />
+
+    <EditText
+        android:id="@+id/regLastName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:hint="Enter Last Name"
+        android:paddingLeft="@dimen/_5sdp" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:id="@+id/regEmail"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:paddingLeft="@dimen/_5sdp"
+        android:background="#fff"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Email" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:id="@+id/regMobile"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:paddingLeft="@dimen/_5sdp"
+        android:background="#fff"
+        android:hint="Enter Mobile No" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:inputType="textPassword"
+        android:id="@+id/regPassword"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:paddingLeft="@dimen/_5sdp"
+        android:background="#fff"
+        android:hint="Enter Password" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:inputType="textPassword"
+        android:id="@+id/regConfirmPassword"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:paddingLeft="@dimen/_5sdp"
+        android:background="#fff"
+        android:hint="Confirm Password" />
+
+    <Button
+        android:id="@+id/regBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:background="@color/colorPrimary"
+        android:text="Register"
+        android:textColor="#fff" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:id="@+id/tvlogin"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textColor="@color/nav_bg"
+        android:textSize="@dimen/_20sdp"
+        android:text="Already Registered? Login here"/>
+</LinearLayout>

@@ -1,0 +1,192 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height= "wrap_content"
+        android:textSize="@dimen/_20sdp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Edit Profile"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:gravity="left"
+        android:hint="Email"
+        android:textSize = "@dimen/_10sdp"
+        android:textColorHint="@color/colorPrimaryDark">
+
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:ems="10"
+        android:textSize = "@dimen/_10sdp"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/colorPrimaryDark"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize = "@dimen/_10sdp"
+        android:gravity="left"
+        android:layout_marginTop="@dimen/_6sdp"
+
+        android:hint="Gender"
+        android:textColorHint="@color/colorPrimaryDark">
+
+        <EditText
+        android:id="@+id/editGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:textSize = "@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:ems="10" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize = "@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+
+        android:gravity="left"
+        android:hint="Date of Birth"
+        android:textColorHint="@color/colorPrimaryDark">
+
+    <EditText
+        android:id="@+id/editDateofBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize = "@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:ems="10"
+        android:inputType="number"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize = "@dimen/_10sdp"
+        android:gravity="left"
+        android:layout_marginTop="@dimen/_6sdp"
+
+        android:hint="Pan No"
+        android:textColorHint="@color/colorPrimaryDark">
+    <EditText
+        android:id="@+id/editPan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize = "@dimen/_10sdp"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize = "@dimen/_10sdp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/_6sdp"
+
+        android:gravity="left"
+        android:hint="Nominee Name"
+        android:textColorHint="@color/colorPrimaryDark">
+
+
+
+    <EditText
+        android:id="@+id/editNomName"
+        android:textSize = "@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:ems="10"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:inputType="textPersonName"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize = "@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+
+        android:gravity="left"
+        android:hint="Nominee Relation"
+        android:textColorHint="@color/colorPrimaryDark">
+
+
+
+
+
+    <EditText
+        android:id="@+id/editNomRelation"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize = "@dimen/_10sdp"
+
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnok"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="@dimen/_50sdp"/>
+
+        <Button
+            android:id="@+id/btncn"
+            android:layout_width="103dp"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginBottom="@dimen/_10sdp"
+
+            android:textColor="@color/white"
+
+            android:layout_height="wrap_content"
+            android:text="CANCEL" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
